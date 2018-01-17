@@ -7,7 +7,7 @@ function init() {
     var key = parseInt(e.detail || e.which);
     if(key === code[i]){
       i++;
-      if(i === code.length-1){
+      if(i === code.length - 1){
         alert("Congrats!");
         //reset the index counter
         i = 0;
